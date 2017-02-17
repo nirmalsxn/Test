@@ -26,7 +26,8 @@ public abstract class BasePage {
   }
   
   public boolean verifyElementIsPresentOrNot(String xp)
-  {
+  {//test
+	  
 	  try
 	  {
 		  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xp)));
